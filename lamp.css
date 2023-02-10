@@ -1,0 +1,296 @@
+* {
+    margin: 50;
+    padding: 0;
+}
+.slanteddiv {
+    position: relative;
+    background-color: hwb(0 14% 84%);
+    width: 100%;
+    height: 180px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: auto;
+}
+.slanteddiv::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: inherit;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: top right;
+    transform: skewY(-4deg);
+}
+.navbar {
+    display: flex;
+    justify-content:space-between ;
+}
+.image1 {
+    width: 2%;
+    height: 2%;
+}
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+li {
+    padding: 0px 20px 0px 20px;
+    margin: -15px 10px 0px 10px;
+    color: white;
+}
+.search {
+    width: 5%;
+    height: 3%;
+    margin-top: -25px;
+}
+.contact {
+    margin-top: -15px;
+    padding: 5px 5px 5px 4px;
+    width: 5%;
+    height: 10%;
+}
+pre {
+    line-height: 140%;
+    font-size: 7pt;
+    font-family: sans-serif;
+    margin-top: -12px;
+}
+h1 {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+.shop {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+.lumpandimage {
+    display: flex;
+    justify-content: space-between;
+}
+.firstlamp{
+    margin-right: 15rem;
+    width: 25%;
+    height: 80%;
+    margin-top: -20px;
+}
+.pro {
+    margin-top: 4rem;
+}
+.one {
+    background-color: rgb(250, 243, 243);
+    height: 290px;
+    margin: 5px;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+.two {
+    background-color: rgb(250, 243, 243);
+    height: 290px;
+    margin: 5px;
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+.three {
+    background-color: rgb(250, 243, 243);
+    height: 290px;
+    margin: 5px;
+    position: relative;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+.four {
+    background-color: rgb(250, 243, 243);
+    height: 290px;
+    margin: 5px;
+    position: relative;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+.new {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: white;
+    background-color: rgb(88, 74, 74);
+    border: none;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+}
+.hot {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+}
+.lamps {
+    position: absolute;
+    right: 5px;
+}
+.word {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.digit {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+.firstfourlamp {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    margin-top: 3rem;
+    background-color: rgb(236, 219, 219);
+    border-radius: 8px;
+}
+.threelamps {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px; 
+    margin-top: 3rem;
+    background-color: rgb(238, 230, 230);
+    gap: 2px;
+    border-radius: 8px;
+}
+.five {
+    background-color: rgb(88, 74, 74);
+    height: 290px;
+    margin: 5px;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+.six {
+    background-color: rgb(41, 34, 34);
+    height: 290px;
+    margin: 5px;
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+.seven {
+    background-color: rgb(82, 73, 62);
+    height: 290px;
+    margin: 5px;
+    position: relative;
+    grid-column: 3/5;
+    grid-row: 1/2;
+    border-radius: 8px;
+}
+.select {
+    position: absolute;
+    top: 90px;
+    right: 45px;
+    font-size: 10px;
+    color: rgb(236, 229, 229);
+}
+.digits {
+    top: 130px;
+    position: absolute;
+    right: 42px;
+    font-size: 15px;
+    color: rgb(236, 229, 229);
+}
+.browse {
+    top: 170px;
+    position: absolute;
+    right: 57px;
+    font-size: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    border: none;
+}
+.image5 {
+    top: 18px;
+    position: absolute;
+}
+.image6 {
+    top: 18px;
+    right: 15px;
+    position: absolute;
+}
+.image7 {
+    top: 18px;
+    right: 20px;
+    position: absolute;
+    width: 50%;
+}
+.last1 {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-size: 10px;
+    color: rgb(236, 229, 229);
+}
+.digits1 {
+    top: 130px;
+    position: absolute;
+    left: 19px;
+    font-size: 15px;
+    color: rgb(236, 229, 229);
+}
+.browse1 {
+    top: 170px;
+    position: absolute;
+    left: 11px;
+    font-size: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    border: none;
+}
+.last {
+    position: absolute;
+    top:55px;
+    left: 20px;
+    font-size: 18px;
+    color: rgb(236, 229, 229);
+}
+.lastdigit {
+    top: 130px;
+    position: absolute;
+    left: 19px;
+    font-size: 24px;
+    color: rgb(236, 229, 229);
+}
+.browse2 {
+    bottom: 60px;
+    position: absolute;
+    left: 21px;
+    font-size: 10px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 5px;
+    border: none;
+}
+.white {
+    color: white;
+}
